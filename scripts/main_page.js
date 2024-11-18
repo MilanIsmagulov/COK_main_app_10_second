@@ -52,7 +52,7 @@ for (let i = 0; i < maxLength; i++) {
 };
 let eom3ref = document.querySelector('#eom_3_ref');
 if (typeOfEOM3 == 1) {
-    document.querySelector('#card_eom_3').textContent = 'Интерактивный тренажер';
+    document.querySelector('#card_eom_3').textContent = 'Интерактивный тренажер по выполнению заданий';
     localStorage.clear();
     eom3ref.href = `./pages/eom_3_unit/eom_3_test/index.html`;
 } else {

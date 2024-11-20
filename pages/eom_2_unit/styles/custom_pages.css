@@ -164,3 +164,16 @@
 .answer_div p{
     text-align: justify !important;
 }
+
+#dynamic-content{
+    width: 100% !important;
+    align-items: center !important;
+}
+
+.description_w_input_2{
+    width: 100% !important;
+}
+
+.img_with_sgn{
+    background-image: initial !important;
+}

@@ -495,7 +495,7 @@ table.iksweb td:first-child{
     width: 100% !important;
 }
 .answers_btn form div {
-    width: 85% !important;
+    width: 100% !important;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -584,7 +584,7 @@ table.iksweb td:first-child{
     text-indent: 0;
 }
 .description_w_input_2 span{
-    font-size: 20px;
+    font-size: 25px;
 }
 .description_w_input_2 label{
     font-size: 25px;
@@ -1263,7 +1263,7 @@ line{
     margin-right: 15px;
     font-size: clamp(15px, 1.5vw, 25px);
     width: clamp(150px, 20vw, 450px);
-    height: 100px;
+    height: 130px;
     margin-left: 15px;
 }
 .element_div_2{
@@ -1397,12 +1397,10 @@ line{
     margin: 0 !important;
 }
 .zoom_paragraph{
+    text-align: start !important;
     display: block;
     height: initial !important;
     width: 350px;
-    white-space: nowrap; 
-    overflow: hidden; 
-    text-overflow: ellipsis !important; 
     align-items: center !important;
     justify-content: flex-start !important;
 }
@@ -1553,6 +1551,9 @@ line{
     min-height: 0;
     max-width: 0;
     max-height: 0;
+}
+.answer_div p{
+    text-align: justify !important;
 }
 @media (max-width: 1200px) {
     .h0 img{
@@ -2117,4 +2118,8 @@ line{
     .image_wrapper{
         width: 400px;
     }
+}
+
+.answers_btn form div p{
+    text-align: start !important;
 }

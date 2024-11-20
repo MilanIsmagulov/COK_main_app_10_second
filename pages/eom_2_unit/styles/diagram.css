@@ -51,3 +51,7 @@
 @keyframes p {
     from{--p:0}
 }
+
+.answer_div p{
+    text-align: justify !important;
+}

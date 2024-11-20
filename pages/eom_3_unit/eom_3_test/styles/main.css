@@ -374,6 +374,7 @@ video{
     justify-content: center;
 }
 .image_test_type_2{
+    order: -1;
     min-width: 500px;
     width: 50%;
     margin-right: clamp(25px,1.25vw,50px);
@@ -416,7 +417,7 @@ video{
     text-indent: 0;
 }
 .description_w_input_2 span{
-    font-size: 20px;
+    font-size: 25px;
 }
 .description_w_input_2 label{
     font-size: 25px;
@@ -598,14 +599,18 @@ ul li div{
     gap: 25px;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     list-style: none;
+    width: 20%;
+    min-height: 300px;
 }
 .img-col {
     border: solid 0px #0070c050;
     border-radius: 5px 5px 5px 5px;
     padding-top: 25px;
-    height: 190px;
-    width: auto;
+    max-height: 190px;
+    width: 100% !important;
+    height: auto;
 }
 .field {
     z-index: 2;

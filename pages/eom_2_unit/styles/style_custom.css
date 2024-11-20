@@ -154,3 +154,7 @@ ul li{
         margin-left: -20px;
     }
 }
+
+.answer_div p{
+    text-align: justify !important;
+}
